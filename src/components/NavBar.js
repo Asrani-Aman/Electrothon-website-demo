@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import logo from "../assets/img/spec logo white (1)-3.png";
+import logo from "../assets/img/Unknown-3";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
@@ -33,8 +33,8 @@ export const NavBar = () => {
     <Router>
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
-          <Navbar.Brand href="/">
-            <img src={logo} alt="Logo" />
+          <Navbar.Brand href="https://www.istenith.com">
+            <img className="rounded-full" src={logo} alt="Logo" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
@@ -57,7 +57,7 @@ export const NavBar = () => {
                 }
                 onClick={() => onUpdateActiveLink("home")}
               >
-                Themes
+                Timeline
               </Nav.Link>
               <Nav.Link
                 href="#skills"
@@ -66,7 +66,7 @@ export const NavBar = () => {
                 }
                 onClick={() => onUpdateActiveLink("skills")}
               >
-                Prizes
+                Events
               </Nav.Link>
               <Nav.Link
                 href="#skills"

@@ -1,13 +1,9 @@
-import logo from "./assets/img/spec logo white (1)-3.png";
+// import logo from "./assets/img/Unknown-3";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { NavBar } from "./components/NavBar";
 import { Banner } from "./components/Banner";
 import { Skills } from "./components/Skills";
-import { Projects } from "./components/Projects";
-import { Contact } from "./components/Contact";
-import { Footer } from "./components/Footer";
-import NewMilestone from "./components/new_milestones/newMilestone";
 
 function App() {
   return (
@@ -15,10 +11,10 @@ function App() {
       <NavBar />
       <Banner />
       <Skills />
-      <NewMilestone />
+      {/* <NewMilestone />
       <Projects />
       <Contact />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }

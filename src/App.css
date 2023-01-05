@@ -315,6 +315,22 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
 }
+.responsie-banner {
+  order: -9999;
+}
+
+@media screen and (max-width: 786px) {
+  .responsie-banner {
+    order: 9999;
+  }
+  .headerImg {
+    width: 27vw;
+    margin: 0 auto;
+  }
+  .responsive-img-banner {
+    width: 100vw;
+  }
+}
 
 /************ Skills Css ************/
 .skill {

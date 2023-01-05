@@ -1,10 +1,5 @@
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
-import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
+
 import colorSharp from "../assets/img/color-sharp.png";
 
 export const Skills = () => {
@@ -34,16 +29,21 @@ export const Skills = () => {
         <div className="row">
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
-              <h2>ABOUT US</h2>
+              <h2>What is Prodyogiki?</h2>
               <p className="about_para">
-                Taking moonshots is no smooth sailing. It's an inherently
-                unpredictable ride. As we launch the 5th in-person lunation of
-                Electrothon, we strive for nothing less than the moon. Run by
-                the student community SPEC under the moonlight of NIT Hamirpur,
-                Electrothon has impacted over 5000 students. The budding hackers
-                who joined Electrothon over its previous iterations left no
-                stone unturned to ideate and amalgamate technologies that
-                transfigure visions into reality.
+                Every technocrat’s first hand at practical implementation of
+                what has been learnt, every nerd’s passion and the most
+                fulfilling exploration of technology that any engineer can do.
+                These are merely the glimpses of the gala show that "Prodyogiki
+                2022" will be. We at ISTE, NIT Hamirpur are ready with a chain
+                of events designed to challenge and motivate the students at the
+                same time, and bring out their best. Prodyogiki 2022 is filled
+                with interactive technological sessions, workshops, events,
+                quizzes and ample other activities for all you technocrats out
+                there. We promise to be the melting pots of different
+                engineering and technical fields and will set new benchmarks in
+                taking the technological culture of NIT Hamirpur to the
+                unprecedented marks of glory.
               </p>
               {/* <Carousel
                 responsive={responsive}

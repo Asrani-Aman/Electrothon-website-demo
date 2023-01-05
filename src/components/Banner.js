@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/electro.png";
+import headerImg from "../assets/img/prody1.svg";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -55,7 +55,7 @@ export const Banner = () => {
     <section className="banner" id="home">
       <Container>
         <Row className="d-flex justify-content-between align-items-center">
-          <Col xs={12} md={6} xl={7}>
+          <Col xs={12} md={6} xl={7} className="responsie-banner">
             <TrackVisibility>
               {({ isVisible }) => (
                 <div
@@ -64,8 +64,8 @@ export const Banner = () => {
                   }
                 >
                   {/* <span className="tagline">Welcome to my Portfolio</span> */}
-                  <h1 className="head_hero">ELECTROTHON 5.0</h1>
-                  <p className="subtitle">"Moon Shot Your Eureka"</p>
+                  <h1 className="head_hero">PRODYOGIKI</h1>
+                  <p className="subtitle">"20th-25th February"</p>
                   <button onClick={() => console.log("connect")}>
                     Register Now <ArrowRightCircle size={25} />
                   </button>
@@ -73,7 +73,7 @@ export const Banner = () => {
               )}
             </TrackVisibility>
           </Col>
-          <Col xs={12} md={4} xl={3}>
+          <Col xs={12} md={4} xl={3} className="responsive-img-banner">
             <TrackVisibility>
               {({ isVisible }) => (
                 <div
